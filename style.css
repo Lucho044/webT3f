@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Satisfy&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+}
+
+
+body {
+    font-family:'Poppins', sans-serif;
+    background-color: #fcc47f;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #784212;
+    display: block;
+    font-weight: 700;
+}
+
+.menu .navbar ul li a:hover {
+   color: #f7e43d; 
+}
+
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt h1 {
+    font-family: 'Satisfy', cursive;
+    color: #784212;
+    font-size: 60px;
+    line-height: 160px;
+    margin-bottom: 5px; 
+}
+
+.header-txt p {
+    font-size: 18px;
+    color: #4b290b;
+    margin-bottom: 35px;
+}
+
+
+.header-content {
+    display: flex;
+}
+
+
+.header-txt {
+    width: 50%;
+}
+
+.header-img {
+    width: 50%;
+    text-align: right;
+}
+
+.header-img img {
+    width: 550px;
+}
+
+/****************  Sección Ofertas  ****************/
+
+.ofert {
+    background-image: url(image/up.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.ofert h2 {
+    font-size: 50px;
+    color: #784212;
+    font-family: 'Satisfy', cursive;
+    margin: 130px 0 50px 0;
+}
+
+
+.ofert-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.ofert-1 img {
+    width: 280px;
+}
+
+.ofert-1 h3 {
+    font-family: 'Satisfy', cursive;
+    color: #784212;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.ofert-1 p {
+    font-size: 16px;
+    color: #5b5b5a;
+}
+
+.ingredient {
+    margin-top: -5px;
+    padding: 40px 0;
+    background-color: #f4f5ef;
+    text-align: center;
+}
+
+.ingredient h2 {
+    font-size: 50px;
+    color: #784212;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 130px;
+}
+
+.ingredient-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.ingredient-info {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.ingredient-txt {
+    width: 50%;
+}
+
+.ingredient-in {
+    margin-left: 20px;
+}
+
+.ingredient-in h3 {
+    font-family: 'Satisfy', cursive;
+    color: #784212;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.ingredient-in p {
+    color: #5b5b5a;
+    font-size: 16px;
+}
+
+.ingredient-img {
+    width: 50%;
+}
+
+.ingredient-img img {
+    width: 500px;
+}
+
+.bg-ingredient {
+    background-image: url(image/bottom.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+/*********************** menu productos ******************************/
+
+.menu-pan {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu-pan h2 {
+    font-size: 50px;
+    color: #784212;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 50px;
+}
+
+
+.menu-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 35px;
+}
+
+.menu-1 img {
+    width: 250px;
+}
+
+.menu-1 h3 {
+    font-size: 40px;
+    color: #784212;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 15px;
+}
+
+
+.menu-1 p {
+    font-size: 16px;
+    color: #5b5b5a;
+    margin-bottom: 25px;
+}
+
+
+   /****************  formulario  ***************/
+
+   .form {
+    background: #9c8337;
+    border-radius: 3px;
+    padding: 60px;
+    margin: 0 auto;
+    width: 300px;
+    }
+
+    .form p{
+       
+        font-size: 15px;
+        text-align: left;
+    }
+
+    imput, textarea{
+        border: 0;
+        outline: 10px;
+    }
+
+    .field{
+        border: solid 1px #ccc;
+        padding: 5px;
+    }
+    
+    .field:focus{
+        border-color: #18a383;
+    }
+    .center-content{
+        text-align: center;
+    }
+
+            
+    /******************* Footer ******************/
+
+.footer {
+    padding: 40px 0;
+    background-color: #332121;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+
+}
+
+
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+ }
+
+
+
+.link h3, p {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #fcbe36;   
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+   }
+
+
+@media(max-width:800px) {
+   .menu {
+    padding: 30px;
+   } 
+
+   .menu label {
+    display: initial;
+   }
+
+   .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #030301;
+    display: none;
+   }
+
+   .menu .navbar ul li {
+    width: 100%;
+   }
+
+   .menu .navbar ul li a {
+    color: #fefff9;
+   }
+
+   #menu:checked ~ .navbar {
+    display: initial;
+   }
+
+  .header {
+    min-height: 0vh;
+  }
+
+  .header-content {
+    flex-direction: column;
+    padding: 100px 30px 30px 30px;
+    text-align: center;
+  }
+
+  .header-txt {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .header-txt h1 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 25px;
+  }
+
+  .header-img {
+    width: 100%;
+  }
+
+
+  .header-img img {
+    width: 100%;
+  }
+
+  .ofert {
+    padding: 30px;
+    background-color: #f4f5ef;
+  }
+
+  .ofert h2 {
+    margin: 0;
+  }
+
+  .ofert-content {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+
+  .ofert-1 {
+    padding: 0 25px;
+    margin-bottom: 25px;
+  }
+
+  .ingredient {
+    padding: 125px;
+  }
+
+  .ingredient-1 {
+    flex-direction: column;
+  }
+
+  .ingredient-txt {
+    width: 100%;
+  }
+
+  .ingredient-in {
+    margin-left: 40px;
+  }
+
+  .ingredient-img {
+    width: 100%;
+    order: 2;
+  }
+
+
+  .ingredient-img img {
+    width: 100%;
+  }
+
+  .bg-ingredient {
+    display: none;
+  }
+
+  .menu-pan {
+    padding: 50px;
+  }
+
+  .menu-pan h2 {
+    margin-bottom: 60px;
+  }
+
+  .menu-content {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+
+  .menu-1 img {
+    width: 70%;
+  }
+
+
+ .footer {
+    padding: 30px;
+ } 
+
+ .footer-content {
+    flex-direction: column;
+    text-align: center;
+ }
+}
